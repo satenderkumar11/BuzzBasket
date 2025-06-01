@@ -19,7 +19,7 @@ const paymentRouter = require("./routes/Payment");
 //middlewares
 
 const corsOptions = {
-  origin: ["https://buzz-basket-front.vercel.app", "http://localhost:5173"], // Add frontend origins
+  origin: ["https://buzz-basket-taupe.vercel.app/", "http://localhost:5173"], // Add frontend origins
   credentials: true, // Allow cookies and credentials
   allowedHeaders: ["Content-Type", "Authorization"], // Allow specific headers
   exposedHeaders: ["X-Total-Count"], // Expose custom headers like X-Total-Count
